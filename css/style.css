@@ -1,0 +1,111 @@
+body{
+  padding-top: 80px;
+}
+/* //////////////////////// APERTURA HEADER ///////////////////////////////// */
+.navbar-default {
+  background-color: white;
+  border-color: white;
+  font-weight: 600;
+}
+.header-logo img{
+  height: 32px;
+  margin-top: 20px;
+}
+.menu ul{
+  line-height: 65px;
+  margin-top: 5px;
+}
+.menu a{
+  color: black;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.menu span{
+  margin-left: 3px;
+}
+.my-button-blue {
+  font-size: 15px;
+  font-weight: 600;
+  color:#2485fd;
+  background-color: #fff;
+  border-color: #2485fd;
+}
+.hamburger{
+  font-size: 15px;
+  line-height: 65px;
+  color: #2485fd;
+}
+
+.jumbo{
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.jumbo-text{
+  color: white;
+}
+.jumbo-text h1{
+  font-size: 65px;
+  margin-top: 50px;
+}
+.jumbo-text h2{
+  font-size: 23px;
+}
+.jumbo-box{
+  background: white;
+  height: 400px;
+  width: 100%;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.jumbo-box h3{
+  font-size: 25px;
+  font-weight: bold;
+}
+.jumbo-box p{
+  font-size: 25px;
+  font-weight: bold;
+  color: #2485fd;
+}
+.jumbo-box form p{
+  font-size: 14px;
+  font-weight: normal;
+  color: black;
+  margin-top: 10px;
+}
+.jumbo-box form .btn-blue{
+  margin: 10px 0;
+  background-color: #2485fd;
+  color: white;
+}
+.jumbo-box form img{
+  height: 25px;
+  float: left;
+}
+/* ///////////////////////// CHIUSURA HEADER //////////////////////////////// */
+
+
+/* ///////////////////////// APERTURA MAIN ////////////////////////////////// */
+.main-sponsor{
+  background: #f3f5f9;
+  height: 200px;
+  padding: 40px;
+  color: #727a8b;
+
+}
+.main-sponsor h3{
+  text-align: center;
+  color: #727a8b;
+  font-size: 17px;
+  font-weight: bold;
+}
+/* ///////////////////////// CHIUSURA MAIN ////////////////////////////////// */
+
+
+/* ///////////////////////// APERTURA FOOTER //////////////////////////////// */
+
+/* ///////////////////////// CHIUSURA FOOTER ///////////////////////////////  */
