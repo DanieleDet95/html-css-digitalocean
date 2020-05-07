@@ -1,3 +1,4 @@
+/* //////////////////// IMPOSTAZIONI GENERALI /////////////////////////////// */
 body{
   padding-top: 80px;
   font-family: 'Roboto';
@@ -5,6 +6,8 @@ body{
 ul{
   list-style-type: none;
 }
+
+/* INTRO SECTION */
 .titolo-section{
   font-size: 40px;
   font-weight: bold;
@@ -12,6 +15,8 @@ ul{
 .sottotitolo-section{
   font-size: 23px;
 }
+
+/* IMP. APPLICAZIONI */
 .apps{
   margin-top: 30px;
 }
@@ -31,7 +36,19 @@ ul{
   color: #026bff;
   padding-bottom: 30px;
 }
+
+/* FRECCIA DESTRA/SINISTRA CAROUSEL */
+.glyphicon-chevron-right,
+.glyphicon-chevron-left{
+  margin-top: 400%;
+  font-size: 30px;
+  color: #6f7b97;
+}
+/* //////////////////// FINE IMPOSTAZIONI GENERALI ////////////////////////// */
+
 /* //////////////////////// APERTURA HEADER ///////////////////////////////// */
+
+/* NAV HEADER */
 .navbar-default {
   background-color: white;
   border-color: white;
@@ -60,13 +77,18 @@ ul{
   background-color: #fff;
   border-color: #2485fd;
 }
+
+/* MENU NASCOSTO */
 .hamburger{
   font-size: 20px;
   margin-top: 5px;
   line-height: 65px;
+}
+.hamburger a{
   color: #2485fd;
 }
 
+/* JUMBOTRONE */
 .jumbo{
   background-image: url(../img/header-bg.jpg);
   background-size: cover;
@@ -121,6 +143,8 @@ ul{
 
 
 /* ///////////////////////// APERTURA MAIN ////////////////////////////////// */
+
+/* SPONSOR */
 .main-sponsor{
   background: #f3f5f9;
   padding: 40px;
@@ -129,7 +153,7 @@ ul{
   font-weight: bold;
 }
 .main-sponsor h3{
-  color: #727a8b;
+  color: ##2f83fe;
   font-size: 17px;
   font-weight: bold;
 }
@@ -142,7 +166,9 @@ ul{
   max-height: 130px;
 }
 .main-sponsor a{
+  color: #2f83fe;
   font-size: 17px;
+  font-weight: bold;
 }
 @media screen and (max-width:768px) {
   .blocco-sponsor{
@@ -154,6 +180,7 @@ ul{
   }
 }
 
+/* DEPLOY */
 .deploy{
   text-align: center;
   margin-top: 70px;
@@ -174,11 +201,12 @@ ul{
 }
 
 @media screen and (max-width:768px) {
-  .deploy-apps{
+  .apps{
     width: 100%;
   }
 }
 
+/* DESIGN */
 .design{
   text-align: center;
   background: #f3f5f9;
@@ -189,12 +217,8 @@ ul{
   width: 100%;
   margin-top: 60px;
 }
-.design .glyphicon{
-  position: relative;
-  top: 200px;
-  font-size: 30px;
-  color: #6f7b97;
-}
+
+/* CAROUSEL */
 .sottotitolo-carousel{
   color: #566485;
   font-size: 17px;
@@ -210,12 +234,15 @@ ul{
   border-radius: 50%;
 }
 
-
+/* FEAUTURES */
 .features .titolo-section{
   margin-bottom: 30px;
 }
 
-
+/* SERVICE */
+.service ul{
+  padding-left: 0;
+}
 .service{
   background: #0044c2;
   color: white;
@@ -245,9 +272,104 @@ ul{
 .test-speed a{
   color: #00d3d1;
 }
+
+/* DEVELOPMENT */
+.development{
+  background: #f3f5f9;
+  padding-bottom: 40px;
+}
+
+/* CAROUSEL */
+.blocco-carousel{
+  background: white;
+  margin-top: 80px;
+  margin-bottom: 25px;
+  padding: 80px 15px 40px 15px;
+}
+.blocco-carousel p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.blocco-carousel .autore{
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.blocco-carousel a{
+  font-size: 18px;
+  color: #006aff;
+}
+
+/* MAIN BOTTOM */
+.main-bottom{
+  background-image: linear-gradient(#0042bb, #00209a);
+  padding: 30px 0 50px 0;
+  color: white;
+}
+.main-bottom button{
+  color: #006aff;
+}
 /* ///////////////////////// CHIUSURA MAIN ////////////////////////////////// */
 
 
 /* ///////////////////////// APERTURA FOOTER //////////////////////////////// */
+footer{
+  background: #031c4e;
+  color: white;
+  padding: 50px 0 60px 0;
+}
+footer ul{
+  padding-left: 0;
+}
+.container-footer p,
+.container-footer a{
+  color: #8b94a9;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 17px;
+}
+.container-footer p.made{
+  color: #596786;
+  margin-top: 0;
+}
+.container-footer i{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.container-footer li{
+  margin-bottom: 15px;
+}
 
+
+/* HELP */
+.help{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.help img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  background: #006aff;
+}
+.help .glyphicon-play{
+  position: absolute;
+  top: 50px;
+  right: 82px;
+}
+.help .text{
+  position: relative;
+  right: 90px;
+  height: 80px;
+  width: 400px;
+  border-radius: 10px;
+  background: white;
+  color: black;
+  padding: 10px;
+  font-size: 18px;
+}
 /* ///////////////////////// CHIUSURA FOOTER ///////////////////////////////  */
